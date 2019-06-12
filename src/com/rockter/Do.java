@@ -9,11 +9,11 @@ public class Do {
 
         //***********************
         RandomString r = new RandomString();
-        //r.RandomStr();
+        r.RandomStr();
 
         //***********************
         AutoPromote a = new AutoPromote();
-        a.AutoPro();
+        //a.AutoPro();
 
         //***********************
         
