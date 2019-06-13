@@ -58,9 +58,20 @@ public class Do {
 
         //***********************
 
-        int[] arr_toStr = new int[]{1,3,2,4,6,3,5};
-        String str = Arrays.toString(arr_toStr);        //变为字符串，用逗号隔开
-        System.out.println(str);
-    }
+//        int[] arr_toStr = new int[]{1,3,2,4,6,3,5};
+//        String str = Arrays.toString(arr_toStr);        //变为字符串，用逗号隔开
+//        System.out.println(str);
 
+        //***********************
+
+//        String s = "www.runoob.com";
+//        char result = s.charAt(0);                      //return w(char);
+//        System.out.println(result);
+
+        //***********************
+
+        Num_to_RMB numToRmb = new Num_to_RMB();
+        System.out.println(numToRmb.toCapsStr("3095"));
+
+    }
 }
