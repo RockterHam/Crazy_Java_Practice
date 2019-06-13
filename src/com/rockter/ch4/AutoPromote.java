@@ -1,4 +1,4 @@
-package com.rockter;
+package com.rockter.ch4;
 
 public class AutoPromote {
     public void AutoPro(){
