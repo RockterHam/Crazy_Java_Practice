@@ -1,8 +1,9 @@
 package com.rockter.ch4;
+
 /**
-    功能：输入一个八位以下数字并转换为中文大写
-    完成日期:19/6/14 17:34
-    造轮子的人：Rockter
+ *     功能：输入一个八位以下数字并转换为中文大写
+ *     完成日期:19/6/14 17:34
+ *     造轮子的人：Rockter
  */
 public class Num_to_RMB {
     private String[] capsnum = new String[]{"零","壹","贰","叁","肆","伍","陆","柒","捌","玖"};
