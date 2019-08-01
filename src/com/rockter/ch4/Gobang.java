@@ -48,7 +48,7 @@ public class Gobang {
         Gobang gb = new Gobang();
         gb.initBoard();
         gb.setBoard();
-
+        System.out.println("请输入您下棋的坐标（x,y）：");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String inputStr = null;
         br.readLine();
