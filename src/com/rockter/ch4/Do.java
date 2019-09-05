@@ -71,7 +71,7 @@ public class Do {
         //***********************
 
 //        Num_to_RMB numToRmb = new Num_to_RMB();
-//        System.out.println(numToRmb.toCapsStr("23453333"));//输入八位以下的数字
+//        System.out.println(numToRmb.toCapsStr("54395413"));//输入八位以下的数字
 
         //***********************
 

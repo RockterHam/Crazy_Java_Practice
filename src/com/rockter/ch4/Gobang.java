@@ -48,15 +48,16 @@ public class Gobang {
         Gobang gb = new Gobang();
         gb.initBoard();
         gb.setBoard();
-
+        System.out.println("请输入您下棋的坐标（x,y）：");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String inputStr = null;
-        br.readLine();
+        System.out.println("请输入您下棋的坐标（x,y）：");
         while ((inputStr = br.readLine()) != null){
+
             String[] posStrArr = inputStr.split(",");
 
-            var xPos = Integer.parseInt(posStrArr[0]);
-            var yPos = Integer.parseInt(posStrArr[1]);
+            int xPos = Integer.parseInt(posStrArr[0]);
+            int yPos = Integer.parseInt(posStrArr[1]);
 
             gb.board[yPos - 1][xPos * 2 - 1] = "·";
             gb.setBoard();

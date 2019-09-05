@@ -1,7 +1,6 @@
 package com.rockter.ch4;
 
 public class Switch {
-
     public void AutoSwitch(){
         System.out.println(3+4+"Helo!");
         System.out.println("Hello!"+3+4);
@@ -16,6 +15,5 @@ public class Switch {
         int e = (int)f;
         System.out.println(e);
     }
-
 }
 
